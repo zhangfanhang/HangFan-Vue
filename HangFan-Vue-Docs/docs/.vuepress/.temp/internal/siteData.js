@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"HangFan-Vue\",\"description\":\"一个由Vue 3 + Vue-Router + Element-Plus + Pinia打造的后台管理系统模版\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/logo.png\"}]],\"locales\":{}}")
