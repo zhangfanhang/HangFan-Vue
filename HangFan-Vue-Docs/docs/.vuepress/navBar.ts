@@ -7,7 +7,7 @@ export default navbar([
   {
     text: '首页',
     link: '/',
-    icon: 'home',
+    icon: 'zhuye',
   },
   /**
    * 练气 css

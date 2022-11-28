@@ -11,7 +11,7 @@ export default hopeTheme({
     url: 'https://zfhblog.top',
   },
   repoDisplay: false,
-  iconAssets: '//at.alicdn.com/t/c/font_3750576_5p09qiy4el.css',
+  iconAssets: '//at.alicdn.com/t/c/font_3796008_6ffgmgl5t5g.css',
   logo: '/logo.png',
   pageInfo: ['Author', 'Original', 'Date', 'Category', 'ReadingTime', 'Word'],
   navbar: Navbar,

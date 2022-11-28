@@ -15,9 +15,14 @@ actions:
 
 features:
   - title: HangFan—EHR
-    icon: HR
+    icon: HRguanli
     details: EHR人力资源管理系统
     link: https://github.com/zhangfanhang/HangFan-Vue/tree/main/HangFan-Vue-EHR
+
+  - title: HangFan—SHOP
+    icon: shangcheng
+    details: 生鲜到家商城后台管理系统
+
 copyright: false
 footer: MIT Licensed | Copyright © 2022-present FanHang Zhang
 ---
