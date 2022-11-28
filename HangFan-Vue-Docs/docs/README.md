@@ -14,12 +14,12 @@ actions:
     link: https://zfhblog.top
 
 features:
-  - title: HangFan—EHR
+  - title: HangFan—Vue-EHR
     icon: HRguanli
     details: EHR人力资源管理系统
     link: https://github.com/zhangfanhang/HangFan-Vue/tree/main/HangFan-Vue-EHR
 
-  - title: HangFan—SHOP
+  - title: HangFan—Vue-SHOP
     icon: shangcheng
     details: 生鲜到家商城后台管理系统
 
