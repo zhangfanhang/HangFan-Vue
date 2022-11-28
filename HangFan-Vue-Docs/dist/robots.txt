@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://fib.zfhblog.top/sitemap.xml
+Sitemap: https://hangfan-vue-docs.zfhblog.top/sitemap.xml

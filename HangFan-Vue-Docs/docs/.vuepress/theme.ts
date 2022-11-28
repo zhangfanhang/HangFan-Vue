@@ -2,7 +2,7 @@ import { hopeTheme } from 'vuepress-theme-hope'
 import Navbar from './navBar'
 
 export default hopeTheme({
-  hostname: 'https://fib.zfhblog.top',
+  hostname: 'https://hangfan-vue-docs.zfhblog.top',
   contributors: false,
   editLink: false,
   author: {
