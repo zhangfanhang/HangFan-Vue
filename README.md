@@ -8,6 +8,8 @@
 
 ## HangFan-Vue-Template
 
+## HangFan-Vue-Template-TS
+
 ## HangFan—Vue-EHR
 
 ## HangFan-Vue-SHOP

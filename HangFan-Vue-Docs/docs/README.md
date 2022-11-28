@@ -14,12 +14,20 @@ actions:
     link: https://zfhblog.top
 
 features:
-  - title: HangFan—Vue-EHR
+  - title: HangFan-Vue-Template
+    icon: sailboat
+    details: HangFan-Vue后台管理系统模版
+
+  - title: HangFan-Vue-Template-Ts
+    icon: typescript
+    details: HangFan-Vue后台管理系统模版ts版本
+
+  - title: HangFan-Vue-EHR
     icon: HRguanli
     details: EHR人力资源管理系统
     link: https://github.com/zhangfanhang/HangFan-Vue/tree/main/HangFan-Vue-EHR
 
-  - title: HangFan—Vue-SHOP
+  - title: HangFan-Vue-SHOP
     icon: shangcheng
     details: 生鲜到家商城后台管理系统
 

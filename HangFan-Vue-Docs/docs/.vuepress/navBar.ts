@@ -1,17 +1,11 @@
 import { navbar } from 'vuepress-theme-hope'
 
 export default navbar([
-  /**
-   * 首页
-   */
   {
     text: '首页',
     link: '/',
     icon: 'zhuye',
   },
-  /**
-   * 练气 css
-   */
   {
     text: '说明',
     link: '/说明',
