@@ -17,6 +17,7 @@ features:
   - title: HangFan—EHR
     icon: HR
     details: EHR人力资源管理系统
+    link: https://github.com/zhangfanhang/HangFan-Vue/HangFan-Vue-EHR
 copyright: false
 footer: MIT Licensed | Copyright © 2022-present FanHang Zhang
 ---

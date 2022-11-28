@@ -3,6 +3,7 @@ import Navbar from './navBar'
 
 export default hopeTheme({
   hostname: 'https://hangfan-vue-docs.zfhblog.top',
+  repo: 'https://github.com/zhangfanhang/HangFan-Vue',
   contributors: false,
   editLink: false,
   author: {
