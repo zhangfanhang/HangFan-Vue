@@ -1,0 +1,27 @@
+/*
+* element样式重置
+*/
+// 修改主题色
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+
+    'primary': (
+      'base': #00CF74,
+    ),
+  ),
+);
+
+//el-table
+.el-table th {
+  color: #fff;
+  background-color: #2D5A74 !important;
+}
+
+.el-table td {
+  height: 50px !important;
+}
+
+// 导入所有样式
+@import "element-plus/theme-chalk/src/index.scss";
+
+

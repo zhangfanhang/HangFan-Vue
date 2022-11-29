@@ -1,0 +1,342 @@
+/* 1 */
+{
+    "_id": "603081dd525ae1359dd7e2fb",
+    "applyUser": {
+        "userId": "1000007",
+        "userName": "admin"
+    },
+    "applyState": 4,
+    "applyType": 1,
+    "startTime": "2021-02-17T16:00:00.000Z",
+    "endTime": "2021-02-18T16:00:00.000Z",
+    "leaveTime": "2天",
+    "reasons": "测试",
+    "orderNo": "XJ202102200",
+    "auditUsers": "tom,Baidu,Ali",
+    "curAuditUserName": "Ali",
+    "auditFlows": [
+        {
+            "_id": "603081dd525ae1359dd7e2fc",
+            "userId": "1000004",
+            "userName": "tom",
+            "userEmail": "tom@imooc.com"
+        },
+        {
+            "_id": "603081dd525ae1359dd7e2fd",
+            "userId": "1000011",
+            "userName": "Baidu",
+            "userEmail": "Baidu@imooc.com"
+        },
+        {
+            "_id": "603081dd525ae1359dd7e2fe",
+            "userId": "1000013",
+            "userName": "Ali",
+            "userEmail": "Ali@imooc.com"
+        }
+    ],
+    "auditLogs": [
+        {
+            "_id": "603082f316663b36f713b16b",
+            "userId": "1000004",
+            "userName": "tom",
+            "createTime": "2021-02-20T03:33:07.175Z",
+            "remark": "tongyi",
+            "action": "审核通过"
+        },
+        {
+            "_id": "6030b1df93f0e159c8390f01",
+            "userId": "1000011",
+            "userName": "Baidu",
+            "createTime": "2021-02-20T06:53:19.493Z",
+            "remark": "同意",
+            "action": "审核通过"
+        },
+        {
+            "_id": "6030b1fb93f0e159c8390f04",
+            "userId": "1000013",
+            "userName": "Ali",
+            "createTime": "2021-02-20T06:53:47.955Z",
+            "remark": "OK",
+            "action": "审核通过"
+        }
+    ],
+    "createTime": "2021-02-20T03:28:29.850Z",
+    "__v": 0
+}
+/* 2 */
+{
+    "_id": ObjectId("60aa62769327880bacba5582"),
+    "applyState": 5,
+    "applyType": 1,
+    "startTime": ISODate("2021-04-30T16:00:00.000Z"),
+    "endTime": ISODate("2021-05-02T16:00:00.000Z"),
+    "leaveTime": "3天",
+    "reasons": "test ",
+    "orderNo": "XJ20210523[object Object]",
+    "auditUsers": "undefined,BaiDu,Ali",
+    "auditFlows": [
+        {
+            "_id": ObjectId("60aa62769327880bacba5583")
+        },
+        {
+            "_id": ObjectId("60aa62769327880bacba5584"),
+            "userId": "1000009",
+            "userName": "BaiDu",
+            "userEmail": "BaiDu@imooc.com"
+        },
+        {
+            "_id": ObjectId("60aa62769327880bacba5585"),
+            "userId": "1000010",
+            "userName": "Ali",
+            "userEmail": "Ali@imooc.com"
+        }
+    ],
+    "auditLogs": [],
+    "applyUser": {
+        "userId": "1000006",
+        "userName": "jack",
+        "userEmail": "jack@imooc.com"
+    },
+    "createTime": ISODate("2021-05-23T14:11:02.738Z"),
+    "__v": 0
+}
+/* 3 */
+{
+    "_id": ObjectId("60aa62b27252080c0e9177b0"),
+    "applyState": 5,
+    "applyType": 1,
+    "startTime": ISODate("2021-04-30T16:00:00.000Z"),
+    "endTime": ISODate("2021-05-04T16:00:00.000Z"),
+    "leaveTime": "5天",
+    "reasons": "Test It",
+    "orderNo": "XJ202105232",
+    "auditUsers": "undefined,BaiDu,Ali",
+    "auditFlows": [
+        {
+            "_id": ObjectId("60aa62b27252080c0e9177b1")
+        },
+        {
+            "_id": ObjectId("60aa62b27252080c0e9177b2"),
+            "userId": "1000009",
+            "userName": "BaiDu",
+            "userEmail": "BaiDu@imooc.com"
+        },
+        {
+            "_id": ObjectId("60aa62b27252080c0e9177b3"),
+            "userId": "1000010",
+            "userName": "Ali",
+            "userEmail": "Ali@imooc.com"
+        }
+    ],
+    "auditLogs": [],
+    "applyUser": {
+        "userId": "1000006",
+        "userName": "jack",
+        "userEmail": "jack@imooc.com"
+    },
+    "createTime": ISODate("2021-05-23T14:12:02.402Z"),
+    "__v": 0
+}
+/* 4 */
+{
+    "_id": ObjectId("60aa62f79266290c319d0c7e"),
+    "applyState": 5,
+    "applyType": 1,
+    "startTime": ISODate("2021-04-30T16:00:00.000Z"),
+    "endTime": ISODate("2021-05-06T16:00:00.000Z"),
+    "leaveTime": "7天",
+    "reasons": "111",
+    "orderNo": "XJ202105233",
+    "auditUsers": "undefined,BaiDu,Ali",
+    "auditFlows": [
+        {
+            "_id": ObjectId("60aa62f79266290c319d0c7f")
+        },
+        {
+            "_id": ObjectId("60aa62f79266290c319d0c80"),
+            "userId": "1000009",
+            "userName": "BaiDu",
+            "userEmail": "BaiDu@imooc.com"
+        },
+        {
+            "_id": ObjectId("60aa62f79266290c319d0c81"),
+            "userId": "1000010",
+            "userName": "Ali",
+            "userEmail": "Ali@imooc.com"
+        }
+    ],
+    "auditLogs": [],
+    "applyUser": {
+        "userId": "1000006",
+        "userName": "jack",
+        "userEmail": "jack@imooc.com"
+    },
+    "createTime": ISODate("2021-05-23T14:13:11.731Z"),
+    "__v": 0
+}
+/* 5 */
+{
+    "_id": ObjectId("60aa63273d56d40c4edc9416"),
+    "applyState": 4,
+    "applyType": 1,
+    "startTime": ISODate("2021-04-30T16:00:00.000Z"),
+    "endTime": ISODate("2021-05-04T16:00:00.000Z"),
+    "leaveTime": "5天",
+    "reasons": "Test It",
+    "orderNo": "XJ202105234",
+    "auditUsers": "FE,BaiDu,Ali",
+    "curAuditUserName": "Ali",
+    "auditFlows": [
+        {
+            "_id": ObjectId("60aa63273d56d40c4edc9417"),
+            "userId": "1000008",
+            "userName": "FE",
+            "userEmail": "FE@imooc.com"
+        },
+        {
+            "_id": ObjectId("60aa63273d56d40c4edc9418"),
+            "userId": "1000009",
+            "userName": "BaiDu",
+            "userEmail": "BaiDu@imooc.com"
+        },
+        {
+            "_id": ObjectId("60aa63273d56d40c4edc9419"),
+            "userId": "1000010",
+            "userName": "Ali",
+            "userEmail": "Ali@imooc.com"
+        }
+    ],
+    "auditLogs": [
+        {
+            "_id": ObjectId("60b24d88facd2ce9fdbd47bc"),
+            "userId": "1000008",
+            "userName": "FE",
+            "createTime": ISODate("2021-05-29T14:19:52.103Z"),
+            "remark": "测试一下",
+            "action": "审核通过"
+        },
+        {
+            "_id": ObjectId("60b24fd802fbe4ebc4d436dc"),
+            "userId": "1000009",
+            "userName": "BaiDu",
+            "createTime": ISODate("2021-05-29T14:29:44.218Z"),
+            "remark": "没问题，很不错",
+            "action": "审核通过"
+        },
+        {
+            "_id": ObjectId("60b25218c07da5ee22d6b5c5"),
+            "userId": "1000010",
+            "userName": "Ali",
+            "createTime": ISODate("2021-05-29T14:39:20.826Z"),
+            "remark": "ces",
+            "action": "审核通过"
+        }
+    ],
+    "applyUser": {
+        "userId": "1000006",
+        "userName": "jack",
+        "userEmail": "jack@imooc.com"
+    },
+    "createTime": ISODate("2021-05-23T14:13:59.574Z"),
+    "__v": 0
+}
+/* 6 */
+{
+    "_id": ObjectId("60b217c684ae40cf8bafafe4"),
+    "applyState": 3,
+    "applyType": 1,
+    "startTime": ISODate("2021-04-30T16:00:00.000Z"),
+    "endTime": ISODate("2021-05-05T16:00:00.000Z"),
+    "leaveTime": "6天",
+    "reasons": "测试一下",
+    "orderNo": "XJ202105295",
+    "auditUsers": "FE,BaiDu,Ali",
+    "curAuditUserName": "FE",
+    "auditFlows": [
+        {
+            "_id": ObjectId("60b217c684ae40cf8bafafe5"),
+            "userId": "1000008",
+            "userName": "FE",
+            "userEmail": "FE@imooc.com"
+        },
+        {
+            "_id": ObjectId("60b217c684ae40cf8bafafe6"),
+            "userId": "1000009",
+            "userName": "BaiDu",
+            "userEmail": "BaiDu@imooc.com"
+        },
+        {
+            "_id": ObjectId("60b217c684ae40cf8bafafe7"),
+            "userId": "1000010",
+            "userName": "Ali",
+            "userEmail": "Ali@imooc.com"
+        }
+    ],
+    "auditLogs": [
+        {
+            "_id": ObjectId("60b24b710a0b61e887de7299"),
+            "userId": "1000008",
+            "userName": "FE",
+            "createTime": ISODate("2021-05-29T14:10:57.302Z"),
+            "remark": "ces",
+            "action": "审核拒绝"
+        }
+    ],
+    "applyUser": {
+        "userId": "1000005",
+        "userName": "tom",
+        "userEmail": "tom@imooc.com@imooc.com"
+    },
+    "createTime": ISODate("2021-05-29T10:30:30.943Z"),
+    "__v": 0
+}
+/* 7 */
+{
+    "_id": ObjectId("60b2597c1f3737f54bb593eb"),
+    "applyState": 2,
+    "applyType": 1,
+    "startTime": ISODate("2021-05-27T16:00:00.000Z"),
+    "endTime": ISODate("2021-05-28T16:00:00.000Z"),
+    "leaveTime": "2天",
+    "reasons": "家里有事儿",
+    "orderNo": "XJ202105296",
+    "auditUsers": "FE,BaiDu,Ali",
+    "curAuditUserName": "BaiDu",
+    "auditFlows": [
+        {
+            "_id": ObjectId("60b2597c1f3737f54bb593ec"),
+            "userId": "1000008",
+            "userName": "FE",
+            "userEmail": "FE@imooc.com"
+        },
+        {
+            "_id": ObjectId("60b2597c1f3737f54bb593ed"),
+            "userId": "1000009",
+            "userName": "BaiDu",
+            "userEmail": "BaiDu@imooc.com"
+        },
+        {
+            "_id": ObjectId("60b2597c1f3737f54bb593ee"),
+            "userId": "1000010",
+            "userName": "Ali",
+            "userEmail": "Ali@imooc.com"
+        }
+    ],
+    "auditLogs": [
+        {
+            "_id": ObjectId("60b25b1e1f3737f54bb593ef"),
+            "userId": "1000008",
+            "userName": "FE",
+            "createTime": ISODate("2021-05-29T15:17:50.956Z"),
+            "remark": "ces",
+            "action": "审核通过"
+        }
+    ],
+    "applyUser": {
+        "userId": "1000005",
+        "userName": "tom",
+        "userEmail": "tom@imooc.com@imooc.com"
+    },
+    "createTime": ISODate("2021-05-29T15:10:52.477Z"),
+    "__v": 0
+}

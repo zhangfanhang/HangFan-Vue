@@ -1,0 +1,299 @@
+/* 1 */
+{
+    "_id": ObjectId("605d8f81e1ed264a867cfcc2"),
+    "deptId": [
+        "6097b5d4ac53c356f4d09195",
+        "6097b96a6d8abf5b34373b6e"
+    ],
+    "state": 1,
+    "role": 1,
+    "roleList": [
+        "609781b45ccd183084f8ea3d"
+    ],
+    "createTime": ISODate("2021-03-26T07:37:33.732Z"),
+    "lastLoginTime": ISODate("2021-03-26T07:37:33.732Z"),
+    "userId": 1000005,
+    "userName": "tom",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "tom@imooc.com@imooc.com",
+    "job": "架构师",
+    "mobile": "17600000001",
+    "__v": 0
+}
+/* 2 */
+{
+    "_id": ObjectId("605d8fced9b80a4abe9a7abd"),
+    "deptId": [
+        "6097b5d4ac53c356f4d09195",
+        "6097b96a6d8abf5b34373b6e"
+    ],
+    "state": 1,
+    "role": 1,
+    "roleList": [
+        "609781b45ccd183084f8ea3d"
+    ],
+    "createTime": ISODate("2021-03-26T07:39:23.316Z"),
+    "lastLoginTime": ISODate("2021-03-26T07:39:23.316Z"),
+    "userId": 1000006,
+    "userName": "jack",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "jack@imooc.com",
+    "__v": 0,
+    "job": null,
+    "mobile": null
+}
+/* 3 */
+{
+    "_id": ObjectId("606402ca99340183a95eccb0"),
+    "deptId": [
+        "60167059c9027b7d2c520a61"
+    ],
+    "state": 1,
+    "role": 0,
+    "roleList": [
+        "609781b45ccd183084f8ea3d",
+        "609781c15ccd183084f8ea3e"
+    ],
+    "createTime": ISODate("2021-03-30T06:26:22.690Z"),
+    "lastLoginTime": ISODate("2021-03-30T06:26:22.690Z"),
+    "userId": 1000007,
+    "userName": "admin",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "admin@imooc.com",
+    "__v": 0,
+    "job": null,
+    "mobile": null
+}
+/* 4 */
+{
+    "_id": ObjectId("60aa5d50af1b6005141e53d7"),
+    "deptId": [
+        "6097b5d4ac53c356f4d09195",
+        "6097b96a6d8abf5b34373b6e"
+    ],
+    "state": 1,
+    "role": 1,
+    "roleList": [
+        "609781d85ccd183084f8ea42"
+    ],
+    "createTime": ISODate("2021-05-23T13:34:05.372Z"),
+    "lastLoginTime": ISODate("2021-05-23T13:34:05.372Z"),
+    "userId": 1000008,
+    "userName": "FE",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "FE@imooc.com",
+    "__v": 0,
+    "job": null,
+    "mobile": null
+}
+/* 5 */
+{
+    "_id": ObjectId("60aa5da1af1b6005141e53d8"),
+    "deptId": [
+        "6097b5d4ac53c356f4d09195",
+        "60aa5dcaaf1b6005141e53da"
+    ],
+    "state": 1,
+    "role": 1,
+    "roleList": [
+        "609781d85ccd183084f8ea42"
+    ],
+    "createTime": ISODate("2021-05-23T13:34:05.372Z"),
+    "lastLoginTime": ISODate("2021-05-23T13:34:05.372Z"),
+    "userId": 1000009,
+    "userName": "BaiDu",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "BaiDu@imooc.com",
+    "__v": 0,
+    "job": null,
+    "mobile": null
+}
+/* 6 */
+{
+    "_id": ObjectId("60aa5dafaf1b6005141e53d9"),
+    "deptId": [
+        "6097b5d4ac53c356f4d09195",
+        "60aa5dd6af1b6005141e53db"
+    ],
+    "state": 1,
+    "role": 1,
+    "roleList": [
+        "609781d85ccd183084f8ea42"
+    ],
+    "createTime": ISODate("2021-05-23T13:34:05.372Z"),
+    "lastLoginTime": ISODate("2021-05-23T13:34:05.372Z"),
+    "userId": 1000010,
+    "userName": "Ali",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "Ali@imooc.com",
+    "__v": 0,
+    "job": null,
+    "mobile": null
+}
+/* 7 */
+{
+    "_id": ObjectId("60ba3217621b85378dd0130f"),
+    "deptId": [
+        "6097b5d4ac53c356f4d09195",
+        "6097b9796d8abf5b34373b6f"
+    ],
+    "state": 2,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2021-06-04T13:57:24.136Z"),
+    "lastLoginTime": ISODate("2021-06-04T13:57:24.136Z"),
+    "userId": 1000011,
+    "userName": "XiaoMing",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "XiaoMing@imooc.com",
+    "mobile": "17600000000",
+    "__v": 0
+}
+/* 8 */
+{
+    "_id": ObjectId("60ba3245621b85378dd01310"),
+    "deptId": [
+        "6097b5d4ac53c356f4d09195",
+        "6097b9796d8abf5b34373b6f"
+    ],
+    "state": 3,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2021-06-04T13:57:24.136Z"),
+    "lastLoginTime": ISODate("2021-06-04T13:57:24.136Z"),
+    "userId": 1000012,
+    "userName": "XiaoMing1",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "XiaoMing1@imooc.com",
+    "mobile": "17600000000",
+    "__v": 0
+}
+/* 9 */
+{
+    "_id": ObjectId("60ba3289621b85378dd01311"),
+    "deptId": [
+        "6097b5d4ac53c356f4d09195",
+        "6097b9796d8abf5b34373b6f"
+    ],
+    "state": 3,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2021-06-04T13:57:24.136Z"),
+    "lastLoginTime": ISODate("2021-06-04T13:57:24.136Z"),
+    "userId": 1000013,
+    "userName": "XiaoMing2",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "XiaoMing2@imooc.com",
+    "mobile": "17600000000",
+    "__v": 0
+}
+/* 10 */
+{
+    "_id": ObjectId("60ba32d7621b85378dd01312"),
+    "deptId": [
+        "6097b5d4ac53c356f4d09195",
+        "6097b9796d8abf5b34373b6f"
+    ],
+    "state": 2,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2021-06-04T13:57:24.136Z"),
+    "lastLoginTime": ISODate("2021-06-04T13:57:24.136Z"),
+    "userId": 1000014,
+    "userName": "ces1",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "ces1@imooc.com",
+    "__v": 0
+}
+/* 11 */
+{
+    "_id": ObjectId("60ba332b621b85378dd01313"),
+    "deptId": [
+        "6097b5d4ac53c356f4d09195",
+        "6097b96a6d8abf5b34373b6e"
+    ],
+    "state": 2,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2021-06-04T13:57:24.136Z"),
+    "lastLoginTime": ISODate("2021-06-04T13:57:24.136Z"),
+    "userId": 1000015,
+    "userName": "ces2",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "ces2@imooc.com",
+    "__v": 0
+}
+/* 12 */
+{
+    "_id": ObjectId("60ba3337621b85378dd01314"),
+    "deptId": [
+        "6097b5d4ac53c356f4d09195",
+        "6097b96a6d8abf5b34373b6e"
+    ],
+    "state": 2,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2021-06-04T13:57:24.136Z"),
+    "lastLoginTime": ISODate("2021-06-04T13:57:24.136Z"),
+    "userId": 1000016,
+    "userName": "ces3",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "ces3@imooc.com",
+    "__v": 0
+}
+/* 13 */
+{
+    "_id": ObjectId("60ba35d2621b85378dd01315"),
+    "deptId": [
+        "6097b5d4ac53c356f4d09195",
+        "6097b9796d8abf5b34373b6f"
+    ],
+    "state": 2,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2021-06-04T13:57:24.136Z"),
+    "lastLoginTime": ISODate("2021-06-04T13:57:24.136Z"),
+    "userId": 1000017,
+    "userName": "ces4",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "ces4@imooc.com",
+    "__v": 0
+}
+/* 14 */
+{
+    "_id": ObjectId("60c74552a3b7ef3d01ce408b"),
+    "deptId": [
+        "6097b5d4ac53c356f4d09195",
+        "6097b96a6d8abf5b34373b6e"
+    ],
+    "state": 2,
+    "role": 1,
+    "roleList": [
+        "609781b45ccd183084f8ea3d"
+    ],
+    "createTime": ISODate("2021-06-05T14:08:56.191Z"),
+    "lastLoginTime": ISODate("2021-06-05T14:08:56.191Z"),
+    "userId": 1000018,
+    "userName": "test-1",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "test-1@imooc.com",
+    "__v": 0
+}
+/* 15 */
+{
+    "_id": ObjectId("60cd959ca3b7ef3d01ce408d"),
+    "deptId": [
+        "6097b5d4ac53c356f4d09195",
+        "6097b9796d8abf5b34373b6f"
+    ],
+    "state": 3,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2021-06-05T14:08:56.191Z"),
+    "lastLoginTime": ISODate("2021-06-05T14:08:56.191Z"),
+    "userId": 1000019,
+    "userName": "test-10",
+    "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "userEmail": "test10@imooc.com@imooc.com",
+    "__v": 0
+}
