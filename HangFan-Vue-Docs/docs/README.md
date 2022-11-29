@@ -20,6 +20,7 @@ features:
   - title: HangFan-Vue-Template
     icon: sailboat
     details: HangFan-Vue后台管理系统模版
+    link: https://hangfan-vue-template.zfhblog.top
 
   - title: HangFan-Vue-Template-Ts
     icon: typescript
