@@ -4,11 +4,14 @@ icon: home
 title: 首页
 heroImage: /logo.png
 heroText: HangFan-Vue
-tagline: 一个由Vue 3 + Vue-Router + Element-Plus + Pinia打造的后台管理系统模版
+tagline: 一个由Vue 3 + Vue-Router + Element-Plus + Pinia打造的后台管理系统生态
 
 actions:
   - text: 快速开始
     link: /说明.md
+    type: primary
+  - text: HangFan-React
+    link: https://hangfan-react-docs.zfhblog.top/
     type: primary
   - text: 作者博客
     link: https://zfhblog.top
