@@ -1,0 +1,12 @@
+{
+  "name": "hangfan-vue-cli",
+  "version": "1.0.0",
+  "description": "hangfan-vue-cli,to create hangfan-vue-template project",
+  "main": "index.js",
+  "scripts": {},
+  "author": "zfh",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.1"
+  }
+}

@@ -2,6 +2,22 @@
 
 `npm run dev`一键启动前端和服务端
 
+## 恢复数据库数据
+
+[参考](http://t.zoukankan.com/gaopeng527-p-4508361.html)
+
+备份命令：
+
+```shell
+mongodump -d xxx -o /home/frank/mongodb/
+```
+
+还原命令:
+
+```shell
+mongorestore -d 数据库名称 db文件夹路径
+```
+
 ## 接口文档
 
 **通用结构体**

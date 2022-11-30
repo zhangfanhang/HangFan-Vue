@@ -2,45 +2,72 @@
   <div class="login-container">
     <Atropos :alwaysActive="false" :activeOffset="100">
       <div class="login-form-container">
-        <img data-atropos-offset="20" src="@/assets/logo.png" alt="logo" class="logo" style="margin-bottom: 30px;">
-        <img src="@/assets/no-left.png" alt="" class="pass_img no-left" v-show="!passWord">
-        <img src="@/assets/password-right.png" alt="" class="pass_img pass-right" v-show="passWord">
-        <img src="@/assets/password-left.png" alt="" class="pass_img pass-left" v-show="passWord">
-        <img src="@/assets/no-right.png" alt="" class="pass_img no-right" v-show="!passWord">
+        <img
+          data-atropos-offset="20"
+          src="@/assets/logo.png"
+          alt="logo"
+          class="logo"
+          style="margin-bottom: 30px"
+        />
+        <img
+          src="@/assets/no-left.png"
+          alt=""
+          class="pass_img no-left"
+          v-show="!passWord"
+        />
+        <img
+          src="@/assets/password-right.png"
+          alt=""
+          class="pass_img pass-right"
+          v-show="passWord"
+        />
+        <img
+          src="@/assets/password-left.png"
+          alt=""
+          class="pass_img pass-left"
+          v-show="passWord"
+        />
+        <img
+          src="@/assets/no-right.png"
+          alt=""
+          class="pass_img no-right"
+          v-show="!passWord"
+        />
         <el-form
-            ref="ruleFormRef"
-            :model="userInfo"
-            :rules="rules"
-            class="login-form"
-            label-position="left"
+          ref="ruleFormRef"
+          :model="userInfo"
+          :rules="rules"
+          class="login-form"
+          label-position="left"
         >
           <el-form-item label="用户名" prop="userName">
-            <el-input v-model.trim="userInfo.userName"
-                      class="login-form-input"
-                      clearable
-                      prefix-icon="User"
+            <el-input
+              v-model.trim="userInfo.userName"
+              class="login-form-input"
+              clearable
+              prefix-icon="User"
             />
           </el-form-item>
-          <el-form-item
-              class="login-form-password"
-              label="密码"
-              prop="userPwd"
-          >
-            <el-input v-model="userInfo.userPwd"
-                      class="login-form-input"
-                      clearable
-                      show-password
-                      @blur="passWord=false"
-                      @focus="passWord=true"
-                      prefix-icon="View"
-                      type="password"
+          <el-form-item class="login-form-password" label="密码" prop="userPwd">
+            <el-input
+              v-model="userInfo.userPwd"
+              class="login-form-input"
+              clearable
+              show-password
+              @blur="passWord = false"
+              @focus="passWord = true"
+              prefix-icon="View"
+              type="password"
             />
           </el-form-item>
 
-          <el-button data-atropos-offset="10" class="login-form-btn-login" type="primary"
-                     @click="handleLogin(ruleFormRef)">登录
+          <el-button
+            data-atropos-offset="10"
+            class="login-form-btn-login"
+            type="primary"
+            @click="handleLogin(ruleFormRef)"
+            >登录
           </el-button>
-
         </el-form>
       </div>
     </Atropos>
@@ -50,15 +77,12 @@
   </div>
 </template>
 <script setup>
-import {useUserStore} from "@/store/user.js"
-import {reactive, ref} from "vue"
-import {login} from "@/api/login.js"
-import {useRouter} from "vue-router"
-import Atropos from 'atropos/vue';
-import storage from "@/utils/storage.js";
-import {getPermissionList} from "@/api/home.js";
-import {generateRoute} from "@/utils/generateRoute.js";
-import {loadAsyncRouter} from "@/utils/loadAsyncRouter.js";
+import { useUserStore } from '@/store/user.js'
+import { reactive, ref } from 'vue'
+import { login } from '@/api/login.js'
+import { useRouter } from 'vue-router'
+import Atropos from 'atropos/vue'
+import storage from '@/utils/storage.js'
 
 const userStore = useUserStore()
 const router = useRouter()
@@ -69,25 +93,25 @@ const ruleFormRef = ref()
 let passWord = $ref(false)
 // 用户信息
 const userInfo = reactive({
-  userName: "admin",
-  userPwd: "123456"
+  userName: 'admin',
+  userPwd: '123456',
 })
 // 表单校验规则
 const rules = $ref({
-  userName: [{required: true, message: "请输入用户名", trigger: "blur"}],
-  userPwd: [{required: true, message: "请输入密码", trigger: "blur"}]
+  userName: [{ required: true, message: '请输入用户名', trigger: 'blur' }],
+  userPwd: [{ required: true, message: '请输入密码', trigger: 'blur' }],
 })
 
 // 登录逻辑
-const handleLogin = formEl => {
+const handleLogin = (formEl) => {
   formEl.validate(async (valid) => {
     if (valid) {
-      const res = await login({...userInfo})
+      const res = await login({ ...userInfo })
       // 存储用户信息
       userStore.saveUserInfo(res)
       //  保存登录状态
       storage.setItem('isLogin', true)
-      router.push("/")
+      router.push('/')
     }
   })
 }
@@ -100,8 +124,7 @@ const handleLogin = formEl => {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #2D5A74;
-
+  background: #2d5a74;
 
   .login-form-container {
     position: relative;
@@ -122,12 +145,14 @@ const handleLogin = formEl => {
       border-radius: 10px;
     }
 
-    .pass_img.no-left, .pass_img.pass-left {
+    .pass_img.no-left,
+    .pass_img.pass-left {
       left: 0;
       bottom: 0;
     }
 
-    .pass_img.no-right, .pass_img.pass-right {
+    .pass_img.no-right,
+    .pass_img.pass-right {
       right: 0;
       bottom: 0;
     }
