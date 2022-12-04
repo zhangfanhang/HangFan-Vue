@@ -15,7 +15,7 @@ const envConfig = {
 
 export default {
     env,
-    namespace: "HangFan-EHR",
+    namespace: "HangFanEHR",
     mock: false,
     ...envConfig[env],
 }
