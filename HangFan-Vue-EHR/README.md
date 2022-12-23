@@ -9,7 +9,7 @@
 备份命令：
 
 ```shell
-mongodump -d xxx -o /home/frank/mongodb/
+mongodump -d xxx
 ```
 
 还原命令:
