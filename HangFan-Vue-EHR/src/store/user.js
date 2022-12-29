@@ -11,6 +11,7 @@ export const useUserStore = defineStore("user", {
         return {
             userInfo: storage.getItem("userInfo") || {},
             userAction: storage.getItem('userAction') || [],
+            userMenu:storage.getItem('userMenu') || [],
         }
     },
     actions: {
@@ -23,6 +24,10 @@ export const useUserStore = defineStore("user", {
         saveUserAction(userAction) {
             this.userAction = userAction
             storage.setItem("userAction", userAction)
+        },
+        saveUserMenu(menu){
+            this.userMenu=menu
+            storage.setItem('userMenu',menu)
         }
     }
 })

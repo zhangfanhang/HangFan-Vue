@@ -89,14 +89,13 @@ import {useUserStore} from '@/store/user.js'
 import {useTabsStore} from "@/store/tabs.js";
 import {storeToRefs} from 'pinia'
 import {useRouter} from 'vue-router'
-import {getNoticeCount, getPermissionList} from '@/api/home.js'
+import {getNoticeCount} from '@/api/home.js'
 import {computed, onMounted} from 'vue'
 import MenuTree from '@/components/MenuTree.vue'
 import Breadcrumb from '@/components/Breadcrumb.vue'
 import {title} from '@/config/projectConfig.js'
 import RouterTabs from "@/components/RouterTabs.vue";
 import storage from "@/utils/storage.js";
-import {loadAsyncRouter} from "@/utils/loadAsyncRouter.js";
 
 const router = useRouter()
 const userStore = useUserStore()
@@ -142,9 +141,7 @@ const setNoticeCount = async () => {
 }
 // 设置菜单列表
 const setMenuList = async () => {
-  const res = await getPermissionList()
-  userStore.saveUserAction(res.actionList)
-  menuList = res.menuList
+  menuList = userStore.userMenu
 }
 </script>
 

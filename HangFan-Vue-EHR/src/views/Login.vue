@@ -83,6 +83,7 @@ import { login } from '@/api/login.js'
 import { useRouter } from 'vue-router'
 import Atropos from 'atropos/vue'
 import storage from '@/utils/storage.js'
+import {getPermissionList} from "@/api/home.js";
 
 const userStore = useUserStore()
 const router = useRouter()
@@ -111,6 +112,10 @@ const handleLogin = (formEl) => {
       userStore.saveUserInfo(res)
       //  保存登录状态
       storage.setItem('isLogin', true)
+      // 获取权限菜单
+      const list = await getPermissionList()
+      userStore.saveUserAction(list.actionList)
+      userStore.saveUserMenu(list.menuList)
       router.push('/')
     }
   })

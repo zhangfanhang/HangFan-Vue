@@ -54,6 +54,7 @@ router.beforeEach(async (to, from) => {
     }
 //    页面标题
     if (router.hasRoute(to.name)) {
+        console.log('我不需要加载路由！')
         document.title = `${to.meta.title}|HangFan-EHR`
     } else {
         console.log('我需要加载路由！')

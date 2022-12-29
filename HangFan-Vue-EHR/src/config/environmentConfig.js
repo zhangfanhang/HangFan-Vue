@@ -8,7 +8,7 @@ const envConfig = {
         mockApi: "/mock"
     },
     production: {
-        baseApi: "/mock",
+        baseApi: "/api",
     }
 }
 
